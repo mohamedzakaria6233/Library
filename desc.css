@@ -1,0 +1,38 @@
+body{
+    background-color: gray;
+}
+.parent{
+    display: flex;
+    flex-flow: row nowrap;
+
+    border: 3px blue solid;
+    height: 450px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.photoo{
+    width: 500;
+    height: 450px;
+
+}
+.photoo img{
+    width: 500;
+    height: 450px;
+}
+
+.desc{
+    background-image: url("b.jpg");
+    background-size: contain;
+    flex-grow: 1;
+}
+.desc p{
+    margin-left: 100;
+    font-size: 35;
+    background-color: #f50;
+    color: white;
+    font-family: cursive;
+    width: 50%;
+    border: blue 3px dotted;
+}
